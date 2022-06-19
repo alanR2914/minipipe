@@ -1,9 +1,9 @@
 let stockProductos = [
     {id: 1, nombre: "Pantalones", tipo: "buzo", desc: "Pantalon nene", precio: 1200, talle: "L", img: '/img/2pantalones.jpeg'},
     {id: 2, nombre: "Bandana", tipo: "buzo", desc: "Bandana unisex", precio: 1100, talle: "L", img: '/img/Bandana.jpeg'},
-    {id: 3, nombre: "Body nene", tipo: "buzo", desc: "Body animales", precio: 1200, talle: "M", img: '/img/body animales.jpeg'},
-    {id: 4, nombre: "Body nena", tipo: "buzo", desc: "Body flores", precio: 1400, talle: "M", img: '/img/body nena.jpeg'},
-    {id: 5, nombre: "Conjunto nena", tipo: "buzo", desc: "Conjunto body + pantalon", precio: 1200, talle: "S", img: '/img/body y pantalon nena.jpeg'},
+    {id: 3, nombre: "Body nene", tipo: "buzo", desc: "Body animales", precio: 1200, talle: "M", img: '/img/bodyanimales.jpeg'},
+    {id: 4, nombre: "Body nena", tipo: "buzo", desc: "Body flores", precio: 1400, talle: "M", img: '/img/bodynena.jpeg'},
+    {id: 5, nombre: "Conjunto nena", tipo: "buzo", desc: "Conjunto body + pantalon", precio: 1200, talle: "S", img: '/img/bodypantalonnena.jpeg'},
     {id: 6, nombre: "Caja Regalo", tipo: "buzo", desc: "Caja especial regalo", precio: 1500, talle: "S", img: '/img/caja recien nacido.jpeg'},
     {id: 7, nombre: "Sonajero", tipo: "remera", desc: "Ideal regalo", precio: 500, talle: "L", img: '/img/caja sonajero.jpeg'},
     {id: 8, nombre: "Body bordado", tipo: "remera", desc: "Body nena", precio: 500, talle: "L", img: '/img/camiseta nena bordado.jpeg'},
