@@ -34,6 +34,7 @@ h1 {
   font-size: 50px;
 }
 .seleccion {
+  margin: 25px;
   text-align: center;
 }
 #selecTalles {
@@ -172,4 +173,24 @@ select {
 .loading{
   margin: auto;
   width: 43%;
+}
+
+div.container {
+  height: 28rem;
+  width: 90rem;
+  background-color: lightblue; 
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.container .carousel-item {
+  width: 400px;
+  height: 400px;
+  
+}
+.container .carousel-item img {
+  max-width: 400px;
+  max-height: 400px;
+  border-radius: 25px;
 }

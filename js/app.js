@@ -98,5 +98,6 @@ function  actualizarCarrito (){
     precioTotal.innerText = carritoDeCompras.reduce((acc,el)=> acc + el.precio, 0 )   //acumulador     
 }                                                          
 
-
-
+$(document).ready(function(){
+      $('#demo-carousel').carousel();
+    });

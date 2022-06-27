@@ -1,5 +1,5 @@
 let stockProductos = [
-    {id: 1, nombre: "Pantalones", tipo: "buzo", desc: "Pantalon nene", precio: 1200, talle: "L", img: '/img/2pantalones.jpeg'},
+    {id: 1, nombre: "Pantalones", tipo: "buzo", desc: "Pantalon nene", precio: 1200, talle: "L", img: '../img/2pantalones.jpeg'},
     {id: 2, nombre: "Bandana", tipo: "buzo", desc: "Bandana unisex", precio: 1100, talle: "L", img: '/img/Bandana.jpeg'},
     {id: 3, nombre: "Body nene", tipo: "buzo", desc: "Body animales", precio: 1200, talle: "M", img: '/img/bodyanimales.jpeg'},
     {id: 4, nombre: "Body nena", tipo: "buzo", desc: "Body flores", precio: 1400, talle: "M", img: '/img/bodynena.jpeg'},
@@ -26,4 +26,4 @@ let stockProductos = [
 ]
 
 
-
+;
