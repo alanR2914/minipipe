@@ -196,18 +196,14 @@ div.container {
 }
 
 
-div, form {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
-}
-
 form {
-    padding: 2em;
+  margin: 5%;
+  padding: 2em;
+  border-radius: 25px;
 }
 
 .color-formulario {
-    background-color: whitesmoke;
+    background-color: lightblue;
 }
 
 h1, h2 {
@@ -218,23 +214,6 @@ p, li {
     font-size: 1.2em;
 }
 
-.collection-item {
-    line-height: 2em !important;
-}
-
-.color-carrito {
-    background-color: aliceblue;
-}
-
-.carrito {
-    border-color: whitesmoke;
-    padding: 5px;
-}
-
-.italica-carrito {
-    font-style: italic;
-}
-
 .fondo-inputs {
-    background-color: aquamarine !important;
+    background-color: rgb(10, 10, 10) !important;
 }

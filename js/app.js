@@ -104,3 +104,23 @@ $(document).ready(function(){
       $('#demo-carousel').carousel();
 });
    
+function guardoCarrito() {
+    if (div.length > 0) {
+        localStorage.setItem("modal-Carrito", JSON.stringify(div))
+    }
+}
+
+function recuperoCarrito() {
+    //debugger
+    if (miCarrito = JSON.parse(localStorage.getItem("carrito"))) {
+        miCarrito.forEach(prod => {
+            carrito.push(prod)
+            const liNuevoProducto = document.createElement("li")
+                  liNuevoProducto.className = "collection-item blue-text"
+                  liNuevoProducto.innerText = prod
+                  liNuevoProducto.id = prod + "EnCarrito"
+                  liNuevoProducto.addEventListener("dblclick", ()=> { removerDelCarrito(`${liNuevoProducto.id}`) }) 
+                  listadoCarrito.append(liNuevoProducto)
+        });
+    }
+}
