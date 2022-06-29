@@ -89,7 +89,18 @@ function mostrarCarrito(productoAgregar) {
         carritoDeCompras = carritoDeCompras.filter(elemento => elemento.id !== productoAgregar.id)
         console.log(carritoDeCompras);
         actualizarCarrito()
+    
+    let btnComprar = document.createElement("div")
+    div.setAttribute("class", "productoEnCarrito")
+    div.innerHTML = `<div class="color-carrito carrito center">
+  
+    <a class="btn-floating btn-large blue white-text 
+     z-depth-3 waves-effect waves-light" href="formulario.html">
+        <i class="material-icons">shopping_cart</i>`
+
+     contenedorCarrito.appendChild(btnComprar)   
     })
+    
 }
 
 
@@ -100,4 +111,5 @@ function  actualizarCarrito (){
 
 $(document).ready(function(){
       $('#demo-carousel').carousel();
-    });
+});
+   
