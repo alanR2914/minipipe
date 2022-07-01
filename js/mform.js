@@ -18,7 +18,40 @@ btnSubmit.addEventListener("mousemove", ()=> {
 document.addEventListener("submit", (e)=> {
     e.preventDefault()
     guardarDatosDeUsr()
-    alert("Formulario enviado.")
+    const faltanDatos = (isNaN(parseInt(inputTelefono.value)) || inputNombre.value.trim() == "" || inputEmail.value.trim() == "") 
+    if (faltanDatos) {
+      Swal.fire({
+        title: 'Error!',
+        text: "Cargue todos los datos en pantalla.",
+        icon: 'error',
+        confirmButtonText: 'OK'
+      })
+    } else {
+        
+        let nom = inputNombre.value
+        let mail = inputEmail.value
+        let tel = inputTelefono.value
+        let todoOK = faltanDatos.todoOK(nom, mail, tel)
+        Swal.fire({
+            title: 'Error!',
+            text: "dale che.",
+            icon: 'error',
+            confirmButtonText: 'OK'
+          }) 
+
+
+
+    }
+/*     Swal.fire({
+        title: 'Error!',
+        text: "Cargue todos los datos en pantalla.",
+        icon: 'error',
+        confirmButtonText: 'OK'
+      }) */
+
+        //alert("Formulario enviado.")
+    
+
 })
 
 function guardarDatosDeUsr() {
