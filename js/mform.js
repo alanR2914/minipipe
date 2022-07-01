@@ -12,7 +12,7 @@ focoEnCampos()
 
 
 btnSubmit.addEventListener("mousemove", ()=> {
-    btnSubmit.title = "Complete los datos antes de ENVIAR"
+    btnSubmit.title = "Asegurese de estar completo los datos"
 })
 
 document.addEventListener("submit", (e)=> {
@@ -27,29 +27,20 @@ document.addEventListener("submit", (e)=> {
         confirmButtonText: 'OK'
       })
     } else {
-        
-        let nom = inputNombre.value
-        let mail = inputEmail.value
-        let tel = inputTelefono.value
-        let todoOK = faltanDatos.todoOK(nom, mail, tel)
         Swal.fire({
-            title: 'Error!',
-            text: "dale che.",
-            icon: 'error',
+            title: 'Enviado',
+            text: "Gracias por realizar su compra.",
+            icon: 'success',
             confirmButtonText: 'OK'
-          }) 
+            
+          })
+         
+
 
 
 
     }
-/*     Swal.fire({
-        title: 'Error!',
-        text: "Cargue todos los datos en pantalla.",
-        icon: 'error',
-        confirmButtonText: 'OK'
-      }) */
 
-        //alert("Formulario enviado.")
     
 
 })
