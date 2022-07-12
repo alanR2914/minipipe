@@ -1,0 +1,221 @@
+[
+    {
+        "id": 1,
+        "nombre": "Pantalones",
+        "tipo": "pantalon",
+        "des": "Pantalon nene",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/2pantalones.jpeg" 
+     },
+     
+     {
+        "id": 2,
+        "nombre": "Bandana",
+        "tipo": "bandana",
+        "des": "bandana unisex",
+        "precio":1100,
+        "talle":"L",
+        "img": "/img/Bandana.jpeg" 
+     },
+     {
+        "id": 3,
+        "nombre": "Body nene",
+        "tipo": "body",
+        "des": "Body animales",
+        "precio":1200,
+        "talle":"M",
+        "img": "/img/bodyanimales.jpeg" 
+     },
+     {
+        "id": 4,
+        "nombre": "Body nena",
+        "tipo": "body",
+        "des": "Body flores",
+        "precio":1400,
+        "talle":"M",
+        "img": "/img/bodynena.jpeg" 
+     },
+     {
+        "id": 5,
+        "nombre": "Conjunto nena",
+        "tipo": "conjuntos",
+        "des": "Conjunto body + pantalon",
+        "precio":1200,
+        "talle":"S",
+        "img": "/img/bodypantalonnena.jpeg" 
+     },
+     {
+        "id": 6,
+        "nombre": "Caja Regalo",
+        "tipo": "regaleria",
+        "des": "Caja especial regalo",
+        "precio":1500,
+        "talle":"S",
+        "img": "/img/caja recien nacido.jpeg" 
+     },
+     {
+        "id": 7,
+        "nombre": "Sonajero",
+        "tipo": "regaleria",
+        "des": "Ideal regalo",
+        "precio":500,
+        "talle":"L",
+        "img": "/img/caja sonajero.jpeg" 
+     },
+     {
+        "id": 8,
+        "nombre": "Body bordado",
+        "tipo": "body",
+        "des": "Body nena",
+        "precio":500,
+        "talle":"L",
+        "img": "/img/camiseta nena bordado.jpeg" 
+     },
+     {
+        "id": 9,
+        "nombre": "Campera nubes",
+        "tipo": "campera",
+        "des": "Campera nubes",
+        "precio":1200,
+        "talle":"M",
+        "img": "/img/campera nubes.jpeg" 
+     },
+     {
+        "id": 10,
+        "nombre": "Conjunto polar",
+        "tipo": "conjunto",
+        "des": "Conjunto con polar",
+        "precio":1200,
+        "talle":"M",
+        "img": "/img/campera y body.jpeg" 
+     },
+     {
+        "id": 11,
+        "nombre": "Caja Regalo",
+        "tipo": "regaleria",
+        "des": "Ideal regalo",
+        "precio":1200,
+        "talle":"S",
+        "img": "/img/Combo recien nacido.jpeg" 
+     },
+     {
+        "id": 12,
+        "nombre": "Polar nena",
+        "tipo": "conjunto",
+        "des": "Conjunto polar nena",
+        "precio":1200,
+        "talle":"S",
+        "img": "/img/conjunto completo.jpeg" 
+     },
+     {
+        "id": 13,
+        "nombre": "Recien nacido",
+        "tipo": "buzo",
+        "des": "Conjunto recien nacido",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/conjunto con gorro.jpeg" 
+     },
+     {
+        "id": 14,
+        "nombre": "Body C/pantalon",
+        "tipo": "buzo",
+        "des": "Body + pantalon nene",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/conjunto dinosaurios.jpeg" 
+     },
+     {
+        "id": 15,
+        "nombre": "Body C/pantalon",
+        "tipo": "buzo",
+        "des": "Body + pantalon nena",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/conjunto nena claro.jpeg" 
+     },
+     {
+        "id": 16,
+        "nombre": "Body nena",
+        "tipo": "buzo",
+        "des": "Bodys de nena",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/conjunto nena.jpeg" 
+     },
+     {
+        "id": 17,
+        "nombre": "Enterito nubes",
+        "tipo": "buzo",
+        "des": "Conjunto enterito",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/conjunto nubes.jpeg" 
+     },
+     {
+        "id": 18,
+        "nombre": "Enterito jean",
+        "tipo": "buzo",
+        "des": "Enterito estilo jean",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/enterito mas body.jpeg" 
+     },
+     {
+        "id": 19,
+        "nombre": "Conjunto nena",
+        "tipo": "buzo",
+        "des": "Conjuto para nena",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/enterito y camiseta.jpeg" 
+     },
+     {
+        "id": 20,
+        "nombre": "Enterito jean",
+        "tipo": "buzo",
+        "des": "Conjunto nene",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/enterito.jpeg" 
+     },
+     {
+        "id": 21,
+        "nombre": "Escarpines",
+        "tipo": "buzo",
+        "des": "Escarpines blancos",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/Escarpines.jpeg" 
+     },
+     {
+        "id": 22,
+        "nombre": "Manta de hilo",
+        "tipo": "buzo",
+        "des": "Manta de hilo",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/manta.jpeg" 
+     },
+     {
+        "id": 23,
+        "nombre": "Osito",
+        "tipo": "buzo",
+        "des": "Osito clasico mini pipe",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/Osito.jpeg" 
+     },
+     {
+        "id": 24,
+        "nombre": "Pantalon",
+        "tipo": "buzo",
+        "des": "Pantalon recien nacido",
+        "precio":1200,
+        "talle":"L",
+        "img": "/img/pantalon gris.jpeg" 
+     }
+
+
+]    
