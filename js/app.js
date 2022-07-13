@@ -124,3 +124,9 @@ function recuperoCarrito() {
         });
     }
 }
+
+document.addEventListener("DOMContentLoaded", ()=> {
+    setTimeout(() => {
+       obtengoContenido(URL)      
+    }, 1200);
+})
