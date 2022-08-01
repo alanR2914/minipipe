@@ -25,26 +25,29 @@ let stockProductos = []
     //{id: 24, nombre: "Pantalon", tipo: "pantalon", desc: "Pantalon recien nacido", precio: 800, talle: "S", img: '/img/pantalon gris.jpeg'},
 
 const retornoCardContenido = (contenido)=> {
-    debugger
-    const {img, nombre, id, des, precio} = contenido
+    const {img, nombre, id, des, precio,talle} = contenido
        let HTMLCard = ""
              HTMLCard += `<div class="col s12 m6 l3">
                             <div class="card z-depth-2">
                                <div class="card-image">
-                                  <img loading="lazy" src="${img}" title="${nombre}">
-                                  <a id="boton${id}" class="btn-floating halfway-fab waves-effect waves-light "><i class="material-icons">add_shopping_cart</i></a>
-                                  <a class="btn-floating halfway-fab waves-effect waves-black blue"><i  class="material-icons" onclick="verDetalle(${id})">search</i></a>
+                                  <img src="${img}">
+                                  <span class= "card-title">${nombre} </span>
+                                  <a id="boton${id}" class="btn-floating halfway-fab waves-effect waves-light "><i class="material-icons">add_shopping_cart</i></a>                       
                                   
                                </div>
                                
                                <div class="card-content blue">
                                   <p class="yellow-text">Descripcion: <span class="white-text">${des}</span></p>
+                                  <p class="yellow-text">Descripcion: <span class="white-text">${talle}</span></p>
                                   <p class="yellow-text">Precio: <span class="white-text">$${precio}</span></p>
                                </div>
                             </div>
                          </div>`
+  
        return HTMLCard
- }
+
+
+ } 
  
  const retornoCardError = ()=> {
     let HTMLCardError = `<div class="center white-text"> 
@@ -58,52 +61,7 @@ const retornoCardContenido = (contenido)=> {
        return HTMLCardError
  }
  
- const retornoDetalle = (contenido)=> {
-       const {img, nombre, tipo, id, des, precio} = contenido
-       HTMLDetalle = `<div class="row center">
-                         <div class="col s12 m5 l4 center-align">
-                            <img src="${img}" width="100%">
-                         </div>
-                         <div class="col s12 m7 l8">
-                            <table>
-                               <tbody class="white-text">
-                                  <tr>
-                                  <td class="yellow-text">TÍTULO</td>
-                                  <td><h5>${nombre}</h5></td>
-                                  </tr>
-                                  <tr>
-                                  <td class="yellow-text">CATEGORÍA</td>
-                                  <td>${tipo}</td>
-                                  </tr>
-                                  <tr>
-                                  <td class="yellow-text">GÉNERO</td>
-                                  <td>${id}</td>
-                                  </tr>
-                                  <tr>
-                                  <td class="yellow-text">RESUMEN</td>
-                                  <td>${des}</td>
-                                  </tr>
-                                  <tr>
-                                  <td class="yellow-text">TEMPORADAS</td>
-                                  <td>${precio}</td>
-                                  </tr>
-                                  <tr>
-                                  <td class="yellow-text">REPARTO</td>
-                                  <td><h6>${reparto}</h6></td>
-                                  </tr>
-                               </tbody>
-                            </table>
-                         </div>
-                   </div>`
-       return HTMLDetalle
- }
- 
- const retornoTrailer = (trailerURL)=> {
-    let HTMLtrailer = `<div class="video-container">
-                         <iframe width="560" height="315" src="${trailerURL}" frameborder="0" encrypted-media; allowfullscreen></iframe>
-                      </div>`
-       return HTMLtrailer
- }
 
 
-;
+
+

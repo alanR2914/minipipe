@@ -18,6 +18,6 @@ modalCarrito.addEventListener('click',(e)=>{
 contenedorModal.addEventListener('click', ()=>{
     carritoCerrar.click()
 })
-comprarCarrito.addEventListener("click", ()=> {
-    
-})
+/* comprarCarrito.addEventListener("click", ()=> {
+    comprarCarrito.click()
+}) */
