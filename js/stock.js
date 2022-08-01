@@ -30,7 +30,7 @@ const retornoCardContenido = (contenido)=> {
              HTMLCard += `<div class="col s12 m6 l3">
                             <div class="card z-depth-2">
                                <div class="card-image">
-                                  <img src="${img}">
+                                  <img src="${img}" with ="400px">
                                   <span class= "card-title">${nombre} </span>
                                   <a id="boton${id}" class="btn-floating halfway-fab waves-effect waves-light "><i class="material-icons">add_shopping_cart</i></a>                       
                                   
@@ -43,8 +43,10 @@ const retornoCardContenido = (contenido)=> {
                                </div>
                             </div>
                          </div>`
+                         
   
        return HTMLCard
+       
 
 
  } 
