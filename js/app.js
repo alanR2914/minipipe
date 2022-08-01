@@ -27,19 +27,15 @@ selecTalles.addEventListener('change',()=>{
     }
 })
 
-//Buscado
 
 mostrarProductos(stockProductos)
 
-//logica Ecommerce
 function mostrarProductos(array){
 
     contenedorProductos.innerHTML = ""
 
     array.forEach(el => {
     let div = document.createElement('div')
-    // div.className = 'producto'
-    // div.setAttribute('class', 'producto')
     div.classList.add('producto')
     div.innerHTML= `<div class="card">
                     <div class="card-image">
@@ -57,7 +53,6 @@ function mostrarProductos(array){
     contenedorProductos.appendChild(div)
     
     let btnAgregar = document.getElementById(`boton${el.id}`)
-    // console.log(btnAgregar);
     btnAgregar.addEventListener('click',()=>{
         agregarAlCarrito(el.id);
     })
